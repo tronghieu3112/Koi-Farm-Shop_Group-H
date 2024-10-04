@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Dự Án Quản Lý Trang Trại Cá Koi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Giới Thiệu
+Dự án này nhằm mục đích xây dựng một trang web quản lý trang trại cá Koi, cung cấp cho khách hàng thông tin đầy đủ về các giống cá Koi, cũng như các dịch vụ liên quan đến cá Koi như mua bán, ký gửi và chăm sóc.
 
-## Available Scripts
+## Tính Năng
+### Frontend
+1. **Trang Chủ:** 
+   - Giới thiệu về trang trại
+   - Thông tin các giống cá
+   - Tin tức và blog
+   - Câu hỏi thường gặp (FAQs)
 
-In the project directory, you can run:
+2. **Trang Chi Tiết Cá Koi:** 
+   - Cung cấp thông tin chi tiết về từng giống cá Koi, bao gồm nguồn gốc, tuổi, kích thước, giống, tính cách, v.v.
 
-### `npm start`
+3. **Trang Tìm Kiếm Cá Koi:** 
+   - Cho phép người dùng tìm kiếm theo các tiêu chí như thuần chủng, lai F1, thuần Việt.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. **Trang Mua Cá:** 
+   - Người dùng có thể chọn mua cá Koi theo lô hoặc cá thể, kèm theo giấy chứng nhận.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. **Trang Ký Gửi Cá:** 
+   - Người dùng có thể ký gửi cá Koi để bán hoặc chăm sóc tại trang trại.
 
-### `npm test`
+6. **Trang So Sánh Cá Koi:** 
+   - Hỗ trợ người dùng so sánh các giống cá Koi với nhau để đưa ra quyết định mua.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+7. **Trang Khuyến Mãi và Tích Điểm:** 
+   - Quản lý các chương trình khuyến mãi và tích điểm cho khách hàng.
 
-### `npm run build`
+8. **Trang Đánh Giá & Feedback:** 
+   - Hiển thị đánh giá và phản hồi từ khách hàng.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+9. **Trang Hồ Sơ Khách Hàng:** 
+   - Cung cấp thông tin cá nhân, lịch sử đơn hàng và tích điểm cho khách hàng.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend
+1. **Trang Quản Lý Đơn Hàng:** 
+   - Quản lý quá trình bán hàng từ lúc đặt hàng đến khi hoàn tất.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Trang Quản Lý Khuyến Mãi:** 
+   - Quản lý các chương trình khuyến mãi.
 
-### `npm run eject`
+3. **Trang Quản Lý Khách Hàng:** 
+   - Quản lý hồ sơ và lịch sử khách hàng.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Trang Dashboard & Report:** 
+   - Hiển thị báo cáo doanh số, tình trạng kho, và các chỉ số hoạt động kinh doanh.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Công Nghệ Sử Dụng
+### Frontend
+- **HTML:** Ngôn ngữ đánh dấu cho cấu trúc trang web.
+- **CSS:** Ngôn ngữ dùng để thiết kế và tạo kiểu cho giao diện.
+- **JavaScript:** Ngôn ngữ lập trình cho logic của ứng dụng.
+- **React.js:** Thư viện JavaScript cho xây dựng giao diện người dùng.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Backend
+- **Java:** Ngôn ngữ lập trình chính cho phát triển backend của ứng dụng.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Cài Đặt
+Để cài đặt và chạy dự án này trên máy của bạn, hãy làm theo các bước sau:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone Repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
