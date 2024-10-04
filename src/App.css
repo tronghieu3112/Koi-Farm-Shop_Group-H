@@ -57,6 +57,12 @@ nav button:hover {
 .container {
   padding: 20px;
 }
+footer{
+  font-size: 15px;
+  text-align: center; 
+  color : white;
+}
+
 h1 {
   font-size: 24px; 
   color: #ffffff; 
@@ -65,11 +71,11 @@ h1 {
   font-size: 50px;
 }
 .koi-label {
-  font-family: 'Arial', sans-serif; /* Thay đổi font chữ */
-  font-weight: bold; /* Đặt chữ đậm */
-  font-size: 18px; /* Kích thước chữ */
-  color: #9ba37f; /* Màu chữ */
-  margin-bottom: 10px; /* Khoảng cách dưới label */
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold; 
+  font-size: 18px; 
+  color: #9ba37f; 
+  margin-bottom: 10px; 
 }
 
 
