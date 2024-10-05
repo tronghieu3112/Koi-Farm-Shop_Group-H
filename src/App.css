@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f9;
-  background-image: url('../img/bg_menu.png'); 
+  background-image: url('https://onkoi.vn/wp-content/themes/themenamewoo/images/bg_menu.png'); 
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center; 
@@ -30,7 +30,7 @@ body {
 nav {
   display: flex;
   justify-content: center;
-  background-image: url('../img/Layer-1.jpg');
+  background-image: url('https://onkoi.vn/wp-content/themes/themenamewoo/images/Layer-1.jpg');
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center; 
@@ -39,7 +39,7 @@ nav {
 }
 
 nav button {
-  background-image: url('../img/bg_menu.png'); 
+  background-image: url('https://onkoi.vn/wp-content/themes/themenamewoo/images/bg_menu.png'); 
   color: #9ba37f;
   border:  none;
   padding: 10px 20px;
