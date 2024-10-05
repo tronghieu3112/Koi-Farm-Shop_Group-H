@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('https://onkoi.vn/wp-content/themes/themenamewoo/images/bg_menu.png'); 
+    background-image: url('../img/bg_menu.png'); 
     background-size: cover;
     background-position: center;
 }
