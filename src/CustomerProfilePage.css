@@ -15,6 +15,7 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     max-width: 500px;
     width: 100%;
+    text-align: center; 
 }
 
 .profile-form label {
@@ -23,6 +24,7 @@
     font-size: 16px;
     color: #333;
     margin-bottom: 10px;
+    text-align: center; 
 }
 
 .profile-form input {
