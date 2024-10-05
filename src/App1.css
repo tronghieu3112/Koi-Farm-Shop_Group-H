@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  background-image: url('../img/bg_menu.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+.botset-container {
+  position: relative; 
+  width: 100%; 
+  display: flex; 
+  justify-content: center;
+  margin-top: auto; 
+}
+
+.botset-container img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+}
+
+
+.botset-container img {
+  max-width: none; 
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-image: url('../img/Layer-1.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height: 80px; 
+  padding: 15px;
+}
+
+nav button {
+  background-image: url('../img/bg_menu.png'); 
+  color: #9ba37f;
+  border:  none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+footer{
+  font-size: 15px;
+  text-align: center; 
+  color : white;
+}
+
+.feedback-container h1 {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.feedback-container form {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+.feedback-container textarea {
+    width: 100%; 
+    height: 100px; 
+    padding: 10px; 
+    border: 2px solid #007BFF; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    color: #333; 
+    resize: none; 
+}
+
+.feedback-container button {
+    padding: 10px 20px; 
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.feedback-container button:hover {
+    background-color: #0056b3; 
+}
+
+.star-rating {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.star {
+    font-size: 30px; 
+    cursor: pointer; 
+    color: #ccc; 
+    transition: color 0.3s; 
+}
+
+.star:hover {
+    color: #FFD700;
+}
+
+.profile-container h1 {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+
+.profile-container h1 {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+/* Căn chỉnh và thiết kế nhãn */
+.profile-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px; /* Tăng khoảng cách giữa các nhãn */
+}
+
+/* Định dạng các trường nhập */
+.profile-form input, .profile-form select {
+    padding: 12px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    width: 100%;
+}
+
+/* Nút gửi */
+.profile-form button {
+    padding: 12px 24px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Hiệu ứng khi di chuột qua nút */
+.profile-form button:hover {
+    background-color: #0056b3;
+}
+
+
