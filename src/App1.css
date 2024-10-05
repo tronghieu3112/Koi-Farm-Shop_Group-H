@@ -140,16 +140,14 @@ footer{
     gap: 15px; 
 }
 
-/* Căn chỉnh và thiết kế nhãn */
 .profile-form label {
     display: flex;
     flex-direction: column;
     font-size: 18px;
     color: #333;
-    margin-bottom: 20px; /* Tăng khoảng cách giữa các nhãn */
+    margin-bottom: 20px; 
 }
 
-/* Định dạng các trường nhập */
 .profile-form input, .profile-form select {
     padding: 12px;
     margin-top: 5px;
@@ -159,7 +157,6 @@ footer{
     width: 100%;
 }
 
-/* Nút gửi */
 .profile-form button {
     padding: 12px 24px;
     background-color: #007BFF;
@@ -172,9 +169,6 @@ footer{
     width: 100%;
 }
 
-/* Hiệu ứng khi di chuột qua nút */
 .profile-form button:hover {
     background-color: #0056b3;
 }
-
-
