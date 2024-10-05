@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import StarRating from './StarRating'; 
-import './App1.css'; 
+import './App.css'; 
 
 const FeedbackPage = () => {
     const [feedback, setFeedback] = useState('');
