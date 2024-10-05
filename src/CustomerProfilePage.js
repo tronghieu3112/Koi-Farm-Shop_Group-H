@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './CustomerProfilePage.css';  
 
 const CustomerProfilePage = () => {
-    const [name, setName] = useState('Nhập tên');
-    const [email, setEmail] = useState('Nhập địa chỉ email');
-    const [phone, setPhone] = useState('Nhập số điện thoại');
-    const [address, setAddress] = useState('Nhập địa chỉ');
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+    const [address, setAddress] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
