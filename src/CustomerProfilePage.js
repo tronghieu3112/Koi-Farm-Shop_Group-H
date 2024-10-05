@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './CustomerProfilePage.css';  
+import './App1.css';  
 
 const CustomerProfilePage = () => {
     const [name, setName] = useState('');
