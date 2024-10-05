@@ -1,7 +1,7 @@
 .feedback-container {
     padding: 20px;
     background-color: #f4f4f9; 
-    background-image: url('https://onkoi.vn/wp-content/themes/themenamewoo/images/bg_menu.png'); 
+    background-image: url('../img/bg_menu.png'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
