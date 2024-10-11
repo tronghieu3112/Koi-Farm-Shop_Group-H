@@ -6,6 +6,10 @@ import FeedbackPage from './FeedbackPage';
 import CustomerProfilePage from './CustomerProfilePage';
 import BuyFishPage from './BuyFishPage';
 import BuyShopFish from './BuyShopFish';
+import DashboardPage from './DashboardPage';
+import InventoryPage from './InventoryPage';
+import OrdersPage from './OrdersPage';
+import CustomersPage from './CustomersPage';
 import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -19,6 +23,7 @@ const App = () => {
                 <button><a href="/consignment">Trang Ký Gửi Cá Koi</a></button>
                 <button><a href="/feedback">Trang Đánh Giá và Phản Hồi</a></button>
                 <button><a href="/profile">Trang Hồ Sơ Khách Hàng</a></button>
+                <button><a href="/dashboard">Trang Quản Trị</a></button>
             </nav>
             <div className="container">
                 <Routes>
@@ -28,6 +33,10 @@ const App = () => {
                     <Route path='/feedback' element={<FeedbackPage />} />
                     <Route path='/profile' element={<CustomerProfilePage />} />
                     <Route path='/buyFish' element={<BuyFishPage />} />
+                    <Route path='/dashboard' element={<DashboardPage />} />
+                    <Route path='/inventory' element={<InventoryPage />} />
+                    <Route path='/orders' element={<OrdersPage />} />
+                    <Route path='/customers' element={<CustomersPage />} />
                 </Routes>
             </div>
             <div className="botset-container">

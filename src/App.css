@@ -276,3 +276,42 @@ button:hover {
     background-color: #0056b3;
 }
 
+.DashboardPage{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 50vw;
+}
+.AppHeader{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px;
+  background-image: url('../img/Layer-1.jpg');
+  border-bottom: 1px solid rgba(red, green, blue, alpha);
+}
+.AppFooter{
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4px 20px;
+  border-bottom: 1px solid rgba(red, green, blue, alpha);
+}
+.SideMenuAndpageContent{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items:flex-start;
+  background:	#f7f7f7 ;
+}
+.PageContent{
+  padding-left: 12px ;
+}
+.SideMenu{
+  height: 100%; 
+}
+.SideMenuVertical{
+  height: 100%;
+}
