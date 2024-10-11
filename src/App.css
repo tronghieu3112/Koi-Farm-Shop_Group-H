@@ -8,6 +8,26 @@ body {
   background-repeat: no-repeat; 
   background-position: center; 
 }
+/* phần header trên cùng */
+.header {
+  background-color: #3b0a0a;
+  padding: 10px 0;
+  text-align: center;
+}
+.header img {
+  height: 50px;
+}
+.header .contact-info {
+  color: #fff;
+  font-size: 14px;
+}
+
+.header .social-icons a {
+  color: #fff;
+  margin: 0 5px;
+  text-decoration: none;
+}
+/* --- */
 .botset-container {
   position: relative; 
   width: 100%; 

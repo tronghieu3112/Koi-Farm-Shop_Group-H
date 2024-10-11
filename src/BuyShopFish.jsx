@@ -3,21 +3,7 @@ import './BuyShopFish.css'
 
 function BuyShopFish() {
     return <main class="container">
-        <div class="header">
-            <div class="contact-info">
-                <span>
-                    024.32.666.777 - 024.39.555.888
-                </span>
-            </div>
-            <div class="social-icons">
-                <a href="#"><i class="fas fa-book"></i>Điều khoản chính sách</a>
-                <a href="#"><i class="fas fa-user"></i>Đăng nhập | Đăng ký</a>
-                <a href="#"><i class="fas fa-shopping-cart"></i>Giỏ hàng</a>
-                <a href="#"><i class="fab fa-facebook-f"></i> </a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
+        
         <h2>Giỏ hàng</h2>
         <table class="cart-table">
             <thead>
@@ -88,6 +74,7 @@ function BuyShopFish() {
             </tbody>
         </table>
         <div class="cart-summary">
+            <h2>Cộng giỏ hàng</h2>
             <table>
                 <tr>
                     <th>
@@ -106,10 +93,11 @@ function BuyShopFish() {
                     </td>
                 </tr>
             </table>
-        </div>
-        <a class="checkout-btn" href="#">
+            <a class="checkout-btn" href="#">
             Tiến hành thanh toán
-        </a>
+            </a>
+        </div>
+       
     </main>
 }
 export default BuyShopFish;

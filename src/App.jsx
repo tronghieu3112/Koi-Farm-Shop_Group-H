@@ -16,7 +16,22 @@ const App = () => {
     const [page, setPage] = useState('search');
 
     return (
-        <div>
+            <div>
+                <div class="header">
+                <div class="contact-info">
+                    <span>
+                        024.32.666.777 - 024.39.555.888
+                    </span>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fas fa-book"></i>Điều khoản chính sách</a>
+                    <a href="#"><i class="fas fa-user"></i>Đăng nhập | Đăng ký</a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i>Giỏ hàng</a>
+                    <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
             <nav>
                 <button><a href="/search">Trang Tìm Kiếm Cá Koi</a></button>
                 <button><a href="/buyFish">Trang Mua Cá</a></button>

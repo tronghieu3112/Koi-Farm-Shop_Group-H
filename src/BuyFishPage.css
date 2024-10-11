@@ -2,6 +2,9 @@
     background-color: #3b0a0a;
     padding: 10px 0;
     text-align: center;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
 }
 .header img {
     height: 50px;
